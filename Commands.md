@@ -1,5 +1,6 @@
 # Introduction
-Welcome to my GitHub repository! This file contains a collection of useful MacOS commands that I have compiled. These commands are a great resource for anyone looking to improve their productivity and efficiency while working on a Mac. I hope that these commands will be helpful to you. Feel free to browse through the file and use any of the commands that you find useful. If you have any questions or suggestions, don't hesitate to contact me.
+This file contains a collection of useful MacOS commands that I have compiled.
+I will continue to add to this file as I discover new commands which I have found useful.
 
 <details>
 <summary><b><font size="+1">System</font></b></summary>
