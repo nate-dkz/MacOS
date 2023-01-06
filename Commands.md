@@ -5,39 +5,39 @@ This file contains a collection of macOS commands that I have found to be useful
 <summary><b><font size="+1">System</font></b></summary>
 </br>
 
-Retrieve software version information.
+Displays software version information.
 
 ``sw_vers``
 
-Retrieve CPU and disk statistics.
+Displays CPU and disk statistics.
 
 ``iostat``
 
-Retrieve system information.
+Displays system information.
 
 ``system_profiler SPSoftwareDataType SPHardwareDataType``
 
-Retrieve data types for the system_profiler command.
+Displays data types for the system_profiler command.
 
 ``system_profiler -listDataTypes``
 
-Retrieve system security information.
+Displays system security information.
 
 ``sudo /usr/libexec/mdmclient QuerySecurityInfo``
 
-Retrieve system device information.
+Displays system device information.
 
 ``sudo /usr/libexec/mdmclient QueryDeviceInformation``
 
-Shutdown the system now.
+Shuts down the system now.
 
 ``sudo shutdown now``
 
-Restart the system now.
+Restarts the system now.
 
 ``sudo shutdown -r now``
 
-Restart the system in 10 mins.
+Restarts the system in 10 mins.
 
 ``sudo shutdown -r 10``
 
@@ -48,7 +48,7 @@ Restart the system in 10 mins.
 </br>
 
 
-Retrieve list of processes using the internet.
+Displays a list of processes using the internet.
 
 ``lsof -P -i -n | cut -f 1 -d " " | uniq``
 
@@ -58,7 +58,7 @@ Retrieve list of processes using the internet.
 <summary><b><font size="+1">Network</font></b></summary>
 </br>
 
-Retrieve the upload / download speed of the network.
+Displays the upload/download speed of the network.
 
 ``networkQuality``
 </details>
@@ -67,37 +67,58 @@ Retrieve the upload / download speed of the network.
 <summary><b><font size="+1">Users</font></b></summary>
 </br>
 
-Run as the root user.
+Runs as the root user.
 
  ``sudo su``
 
-Run in super user mode.
+Runs in super user mode.
 
  ``sudo -s``
 
-Retrieve a list of users who have signed in recently.
+Displays a list of recent user sessions.
 
  ``last``
+
+Displays information about the current user session.
+
+ ``who``
 </details>
 
 <details>
 <summary><b><font size="+1">Files</font></b></summary>
 </br>
 
-Retrieve size of directories / files.
+Displays directory size for a file or directory.
 
-``du -sh <file>``
+``du -h <file>``
+
+Displays file and directory size for all files.
+
+``du -h``
+
+Displays total file and directory size.
+
+``du -sh``
+
+Displays information about a file.
+
+``stat <file>``
+
+Displays the file type for a file.
+
+``file <file>``
+
 </details>
 
 <details>
 <summary><b><font size="+1">Software</font></b></summary>
 </br>
 
-Check for latest software updates.
+Checks for latest software updates.
 
-``softwareupdate -l``
+``softwareupdate -l`
 
-Install all software updates.
+Installs all available software updates.
 
 ``softwareupdate -iaR``
 </details>
