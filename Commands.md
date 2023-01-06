@@ -1,6 +1,5 @@
 # Introduction
-This file contains a collection of useful MacOS commands that I have compiled.
-I will continue to add to this file as I discover new commands which I have found useful.
+This file contains a collection of macOS commands that I have found to be useful. I have gathered these commands in one place as a reference point to refer back to whenever I need them.
 
 <details>
 <summary><b><font size="+1">System</font></b></summary>
